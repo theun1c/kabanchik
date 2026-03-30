@@ -15,4 +15,4 @@ The main goal of this project is to learn how to build a basic backend applicati
 - PostgreSQL
 
 ## License
-MIT
+[MIT](LICENSE)
