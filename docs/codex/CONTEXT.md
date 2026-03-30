@@ -7,15 +7,14 @@ This project implements one part of the Kanban board project. It implements the 
 Learn to write a basic backend application using a new technology: TypeScript + NestJS + NodeJS
 
 ## Current Scope
-- Project (column) creation
+- Status columns creation
 - Task creation (full CRUD)
-- Drag and drop tasks across projects
-- Drag and drop tasks within a project (priority change)
+- Drag and drop tasks across columns
+- Drag and drop tasks within a columns (priority change)
 
 ## Main entity
 - tasks
-- projects (columns)
-
+- status columns
 
 ## Out of Scope
 - implement authentication/authorization
@@ -24,8 +23,8 @@ Learn to write a basic backend application using a new technology: TypeScript + 
 
 ## Main Use Cases
 - create a task (edit, delete)
-- drag and drop a task across projects
-- drag and drop a task within a project
+- drag and drop a task across status columns
+- drag and drop a task within a status columns
 
 ## Technical Direction
 - TypeScript 
@@ -35,6 +34,3 @@ Learn to write a basic backend application using a new technology: TypeScript + 
 
 ## Current Open Questions
 - application architecture is not defined
-
-## Extra
-- projects refers to columns with the project status (not started, in progress, closed), therefore, from now on it will be defined as a status column
